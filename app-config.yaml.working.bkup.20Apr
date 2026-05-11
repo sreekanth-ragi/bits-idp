@@ -79,7 +79,7 @@ auth:
         #metadataUrl: http://localhost:9090/realms/backstage/.well-known/openid-configuration
         metadataUrl: http://10.253.194.3/realms/backstage/.well-known/openid-configuration
         clientId: backstage
-        clientSecret: Yhu169TiMzoCPuSUwEATypjjabpXhRal
+        clientSecret: <OIDC Secret from keycloak>
         prompt: auto
           #issuer: http://localhost:9090/realms/backstage
           #authorizationUrl: http://localhost:9090/realms/backstage/protocol/openid-connect/auth
@@ -92,7 +92,7 @@ auth:
     github:
       development:
         clientId: Ov23lir68wgw4NwafiSx
-        clientSecret: 636c86bed784ea8a1ea47694beb6dbd76bba944b
+        clientSecret: <<Github OAuth client secret>>
         signIn:
           resolvers:
             - resolver: usernameMatchingUserEntityName
@@ -108,7 +108,7 @@ catalog:
         loginRealm: backstage
         realm: backstage
         clientId: backstage
-        clientSecret: Yhu169TiMzoCPuSUwEATypjjabpXhRal
+        clientSecret: <OIDC Secret from keycloak>
         schedule:
           frequency: { minutes: 600 }
           timeout: { minutes: 1 }
