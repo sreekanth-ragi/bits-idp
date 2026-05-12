@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([["9470"],{66605(e,a,u){u.d(a,{CatalogPage:()=>n});var p=u(31085),s=u(18690),t=u(17943);function n(e){return(0,s.useOutlet)()||(0,p.jsx)(t.H,{...e})}}}]);
+//# sourceMappingURL=9470.9f482e2f.chunk.js.map

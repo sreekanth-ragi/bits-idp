@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([["2450"],{6169(e,t,n){n.d(t,{KubernetesContentPage:()=>a});var p=n(31085),s=n(16400),u=n(26141);function a(){let{entity:e}=(0,s.tN)();return(0,p.jsx)(u.K,{entity:e})}}}]);
+//# sourceMappingURL=2450.78c388b5.chunk.js.map
